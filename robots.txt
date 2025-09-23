@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /includes/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.css$
+
+Sitemap: https://balkonchik-minsk-by.vercel.app/sitemap.xml
+
+# Crawl-delay: 10
+User-agent: Yandex
+Crawl-delay: 2
+
+User-agent: Googlebot
+Allow: /images/
+Allow: /photo/
